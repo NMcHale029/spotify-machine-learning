@@ -6,7 +6,7 @@ Data on 30,000 songs from a Spotify API was used to create models to predict a s
 ### Collaborators
 - Sha’miah Lindsey (ShamiahL)
 - Kent Andrews (kxandrews1970)
-- Tristen Vazquez (vazq0003)
+- Tristan Vazquez (vazq0003)
 - Noah McHale (NMcHale029)
 
 ### Project Documentation
