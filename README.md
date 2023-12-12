@@ -22,8 +22,13 @@ Data on 30,000 songs from a Spotify API was used to create models to predict a s
 - LinearRegression from sklearn.linear_model
 - mean_squared_error from sklearn.metrics
 - r2_score from sklearn.metrics
-- 
-
+- KMeans from sklearn.cluster
+- PCA from sklearn.decomposition
+- hvplot.pandas
+- RandomForestClassifier from sklearn.ensemble
+- confusion_matrix from sklearn.metrics
+- accuracy_score from sklearn.metrics
+- classification_report from sklearn.metrics
 
 ### Cleaning
 Data was read in using Path from a csv file that contains data about 30,000 songs on Spotify. The data included:
