@@ -118,18 +118,18 @@ The new model with a reduced set of features significantly improved performance,
 ### Tableau
 [Spotify Banger Tableau]
 Data used the Spotify API csv file wsa used to find a trend between different variables. Through trial and error, we were able to find a trend between each variable. We decided to use the data provided by the csv file to answer asking ourselves three questions:
- Question 1. Are key and mode of a song important ?
- Question 2. Which artists have the most popular songs?
- Question 3. What does it take to have a top song ?
+  1. Are key and mode of a song important ?
+  2. Which artists have the most popular songs?
+  3. What does it take to have a top song ?
 
 We looked at different graphs and charts to determine the answer to these questions. 
   Answer 1. Key and Mode are not important when determining if a song is a 'banger' or a top song. Something we learned is that a song can       played in a key major, but that would have nothing to do with whether the song will be likeable enough to become a popular hit !
   Answer 2. We looked at the top 6 artists to determine what was the most popular songs.
     Based on the data:
-    Martin Garrix-No Sleep ft. Bonn
-    Queen-Somebody to love -2011 Mix
-    The Chainsmokers-Closer ft. Halsey
-    David Guetta-Titanium ft. Sia
-    Don Omar-Dile
-    Drake-One Dance
+    -Martin Garrix-No Sleep ft. Bonn
+    -Queen-Somebody to love -2011 Mix
+    -The Chainsmokers-Closer ft. Halsey
+    -David Guetta-Titanium ft. Sia
+    -Don Omar-Dile
+    -Drake-One Dance
   Answer 3: Popular artists tend to have popular songs. We found that high energy, loudness, and danceability makes a song one of the chart     topper. 
