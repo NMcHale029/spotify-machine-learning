@@ -76,7 +76,39 @@ A Linear Regression model is not a good fit for predicting a song's popularity.
 
 
 ### Supervised Classification
+This model seeks to predict whether a song is a "banger" using a Random Forest Classifier. Model performance is evaluated with metrics like a confusion matrix and accuracy score, and recall score.
 
+1. Reading and Preprocessing Data:
+-Clean Spotify data is loaded.
+-'track_album_release_date' is processed to extract the year.
+-Index is set to 'track_name' and 'track_artist'.
+
+2. Feature and Target Definition:
+-Features (X) are defined by copying the DataFrame and dropping 'bangers'.
+-Target vector (y) is defined as the 'bangers' column.
+
+3. Data Splitting and Scaling:
+-Data is split into training and testing sets.
+-Standard scaling is applied to feature sets using StandardScaler.
+
+4. Model Training and Evaluation:
+-Random Forest Classifier (500 estimators) is created and trained.
+-Predictions are made on the testing data.
+-Model performance is evaluated using a confusion matrix and accuracy/recall scores.
+
+Initial Result:
+The model achieved a high accuracy score of 96%. However, the recall is relatively low at only 28%. This indicates that the model struggles to correctly identify positive instances. Specifically there were issues with high volume of false negative results. 
+
+Importance Analysis:
+The feature importance analysis from the model revealed that the top nine features (Loudness, Tempo, Energy, Speechiness, Acousticness, Duration, Valence, Danceability, Liveness) accounted for ~74% of the importance when determining whether a song can be classified as a "banger".
+
+Model Improvement:
+To address concerns about model performance, a new model was trained with a reduced set of features (df_spotify_MV). The new model was ran using exactly the same process except the features were trimmed down to only include the top nine features identified in the importance analysis. The new model achieved significantly improved results:
+-Accuracy Score: 99.32%
+-Recall (Class 1): 87%
+-F1-Score (Class 1): 91%
+
+The new model with a reduced set of features significantly improved performance, achieving an accuracy score of 99.32% and addressing the poor recall in the initial model. The feature selection process played a crucial role in enhancing the model's ability to identify "bangers". By trimming down the features and cutting out the extra noise in the model, high accuracy was acheived while eliminating the large volume of false negative results in the initial model. 
 
 ### Tableau
 [Spotify Banger Tableau](ENTER LINK HERE)
