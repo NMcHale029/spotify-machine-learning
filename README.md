@@ -124,7 +124,7 @@ Data used the Spotify API csv file wsa used to find a trend between different va
   3. What does it take to have a top song ?
 
 We looked at different graphs and charts to determine the answer to these questions. 
-  Answer 1. Key and Mode are not important when determining if a song is a 'banger' or a top song. Something we learned is that a song can       played in a key major, but that would have nothing to do with whether the song will be likeable enough to become a popular hit !
+  Answer 1. Key is important when determining if a song is a 'banger' or a top song. Mode does not really have much of an effect on whether a song can be a hit or not.
   Answer 2. We looked at the top 6 artists to determine what was the most popular songs.
     Based on the data:
   -Martin Garrix-No Sleep ft. Bonn
@@ -133,4 +133,4 @@ We looked at different graphs and charts to determine the answer to these questi
   -David Guetta-Titanium ft. Sia
   -Don Omar-Dile
   -Drake-One Dance
-  Answer 3: Popular artists tend to have popular songs. We found that high energy, loudness, and danceability makes a song one of the chart     topper. 
+  Answer 3: Popular artists tend to have popular songs. We found that key, valence, and danceability makes a song one of the chart toppers. 
