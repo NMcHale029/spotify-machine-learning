@@ -116,7 +116,7 @@ To address concerns about model performance, a new model was trained with a redu
 The new model with a reduced set of features significantly improved performance, achieving an accuracy score of 99.32% and addressing the poor recall in the initial model. The feature selection process played a crucial role in enhancing the model's ability to identify "bangers". By trimming down the features and cutting out the extra noise in the model, high accuracy was acheived while eliminating the large volume of false negative results in the initial model. 
 
 ### Tableau
-[Tableau Workbook](https://public.tableau.com/authoring/Project4_17014016191960/popvsgenre#2)
+[Tableau Workbook](https://public.tableau.com/authoring/Project4_17014016191960/popvsgenre#1)
 
 Data used the Spotify API csv file wsa used to find a trend between different variables. Through trial and error, we were able to find a trend between each variable. We decided to use the data provided by the csv file to answer asking ourselves three questions:
   1. Are key and mode of a song important ?
