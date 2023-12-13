@@ -63,6 +63,9 @@ Numerical columns were scaled using StandardScaler and categorical variables had
 This final dataframe was saved to a csv, 'spotify_clean.csv' in our Resource folder.
 
 ### Unsupervised Model
+
+
+### Supervised Regression
 Data was imported from spotify_clean.csv into a pandas dataframe, and then plit into training and test data. The target variable used is track_popularity. The notebook tests several models for mean squared error.
 
 Models tested in the notebook include:
@@ -76,9 +79,6 @@ Models tested in the notebook include:
 The best model was the model including all variables. However, the model does not do a good job of predicting the popularity of a song. The model, on average, comes within 23 points of the actual popularity score of a song. The scale is 0-100 which means that on average, the score is off by a quarter the posible range.
 
 A Linear Regression model is not a good fit for predicting a song's popularity.
-
-### Supervised Regression
-
 
 ### Supervised Classification
 This model seeks to predict whether a song is a "banger" using a Random Forest Classifier. Model performance is evaluated with metrics like a confusion matrix and accuracy score, and recall score.
