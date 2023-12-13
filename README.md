@@ -113,7 +113,7 @@ To address concerns about model performance, a new model was trained with a redu
 -Recall (Class 1): 87%
 -F1-Score (Class 1): 91%
 
-The new model with a reduced set of features significantly improved performance, achieving an accuracy score of 99.32% and addressing the poor recall in the initial model. The feature selection process played a crucial role in enhancing the model's ability to identify "bangers". By trimming down the features and cutting out the extra noise in the model, high accuracy was acheived while eliminating the large volume of false negative results in the initial model. 
+The new model with a reduced set of features significantly improved performance, achieving an accuracy score of 99.32% and addressing the poor recall in the initial model. The feature selection process played a crucial role in enhancing the model's ability to identify "bangers". By trimming down the features and cutting out the extra noise in the model, high accuracy was achieved while eliminating the large volume of false negative results in the initial model. 
 
 ### Tableau
 [Spotify Banger Tableau](ENTER LINK HERE)
