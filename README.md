@@ -63,6 +63,9 @@ Numerical columns were scaled using StandardScaler and categorical variables had
 This final dataframe was saved to a csv, 'spotify_clean.csv' in our Resource folder.
 
 ### Unsupervised Model
+Data imported from cleaned up csv (spotify_clean.csv) First, a scatter plot of the entire dataset with Popularity and Energy looking to see if a trend shows, it did not.  Then attempted to break the data down into clusters, K Curve showed 2-3 clusters would be best, 2 had the curve but 3's output seemed slightly better visually.  Models using different variables against popularity was created yet nothing stood out for the a-ha moment.  Finally, after trying several graphs, it was determined unsupervised model would not be of much value for this instance.
+
+### Supervised Regression
 Data was imported from spotify_clean.csv into a pandas dataframe, and then plit into training and test data. The target variable used is track_popularity. The notebook tests several models for mean squared error.
 
 Models tested in the notebook include:
@@ -76,9 +79,6 @@ Models tested in the notebook include:
 The best model was the model including all variables. However, the model does not do a good job of predicting the popularity of a song. The model, on average, comes within 23 points of the actual popularity score of a song. The scale is 0-100 which means that on average, the score is off by a quarter the posible range.
 
 A Linear Regression model is not a good fit for predicting a song's popularity.
-
-### Supervised Regression
-
 
 ### Supervised Classification
 This model seeks to predict whether a song is a "banger" using a Random Forest Classifier. Model performance is evaluated with metrics like a confusion matrix and accuracy score, and recall score.
@@ -116,4 +116,21 @@ To address concerns about model performance, a new model was trained with a redu
 The new model with a reduced set of features significantly improved performance, achieving an accuracy score of 99.32% and addressing the poor recall in the initial model. The feature selection process played a crucial role in enhancing the model's ability to identify "bangers". By trimming down the features and cutting out the extra noise in the model, high accuracy was achieved while eliminating the large volume of false negative results in the initial model. 
 
 ### Tableau
-[Spotify Banger Tableau](ENTER LINK HERE)
+[Tableau Workbook](https://public.tableau.com/authoring/Project4_17014016191960/popvsgenre#1)
+
+Data used the Spotify API csv file wsa used to find a trend between different variables. Through trial and error, we were able to find a trend between each variable. We decided to use the data provided by the csv file to answer asking ourselves three questions:
+  1. Are key and mode of a song important ?
+  2. Which artists have the most popular songs?
+  3. What does it take to have a top song ?
+
+We looked at different graphs and charts to determine the answer to these questions. 
+  Answer 1. Key and Mode are not important when determining if a song is a 'banger' or a top song. Something we learned is that a song can       played in a key major, but that would have nothing to do with whether the song will be likeable enough to become a popular hit !
+  Answer 2. We looked at the top 6 artists to determine what was the most popular songs.
+    Based on the data:
+  -Martin Garrix-No Sleep ft. Bonn
+  -Queen-Somebody to love -2011 Mix
+  -The Chainsmokers-Closer ft. Halsey
+  -David Guetta-Titanium ft. Sia
+  -Don Omar-Dile
+  -Drake-One Dance
+  Answer 3: Popular artists tend to have popular songs. We found that high energy, loudness, and danceability makes a song one of the chart     topper. 
