@@ -63,7 +63,7 @@ Numerical columns were scaled using StandardScaler and categorical variables had
 This final dataframe was saved to a csv, 'spotify_clean.csv' in our Resource folder.
 
 ### Unsupervised Model
-
+Data imported from cleaned up csv (spotify_clean.csv) First, a scatter plot of the entire dataset with Popularity and Energy looking to see if a trend shows, it did not.  Then attempted to break the data down into clusters, K Curve showed 2-3 clusters would be best, 2 had the curve but 3's output seemed slightly better visually.  Models using different variables against popularity was created yet nothing stood out for the a-ha moment.  Finally, after trying several graphs, it was determined unsupervised model would not be of much value for this instance.
 
 ### Supervised Regression
 Data was imported from spotify_clean.csv into a pandas dataframe, and then plit into training and test data. The target variable used is track_popularity. The notebook tests several models for mean squared error.
