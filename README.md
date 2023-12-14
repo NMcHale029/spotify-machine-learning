@@ -127,10 +127,10 @@ We looked at different graphs and charts to determine the answer to these questi
   Answer 1. Key is important when determining if a song is a 'banger' or a top song. Mode does not really have much of an effect on whether a song can be a hit or not.
   Answer 2. We looked at the top 6 artists to determine what was the most popular songs.
     Based on the data:
-  -Martin Garrix-No Sleep ft. Bonn
-  -Queen-Somebody to love -2011 Mix
-  -The Chainsmokers-Closer ft. Halsey
-  -David Guetta-Titanium ft. Sia
-  -Don Omar-Dile
-  -Drake-One Dance
+  - Martin Garrix-No Sleep ft. Bonn
+  - Queen-Somebody to love -2011 Mix
+  - The Chainsmokers-Closer ft. Halsey
+  - David Guetta-Titanium ft. Sia
+  - Don Omar-Dile
+  - Drake-One Dance
   Answer 3: Popular artists tend to have popular songs. We found that key, valence, and danceability makes a song one of the chart toppers. 
